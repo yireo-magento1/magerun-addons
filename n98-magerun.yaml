@@ -1,0 +1,7 @@
+autoloaders:
+  Yireo: %module%/src
+
+commands:
+  customCommands:
+    - Yireo\Magento\Command\Admin\Role\ListCommand
+    - Yireo\Magento\Command\Admin\Role\ResetCommand
