@@ -4,4 +4,6 @@ autoloaders:
 commands:
   customCommands:
     - Yireo\Magento\Command\Admin\Role\ListCommand
+    - Yireo\Magento\Command\Admin\Role\CreateCommand
     - Yireo\Magento\Command\Admin\Role\ResetCommand
+    - Yireo\Magento\Command\Admin\Role\DeleteCommand

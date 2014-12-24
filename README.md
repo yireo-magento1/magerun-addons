@@ -2,7 +2,7 @@ Yireo MageRun Addons
 ====================
 This project contains additional commands for N98-MageRun.
 
-* List admin roles
+* List / create / reset / delete admin roles
 
 Installation
 ------------
@@ -28,7 +28,15 @@ List all backend roles:
 
     $ n98-magerun.phar admin:role:list
 
+Create a new backend role with ALL privileges:
+    
+    $ n98-magerun.phar admin:role:create
+
 Reset privileges of a certain backend role to ALL privileges:
 
     $ n98-magerun.phar admin:role:reset
+
+Delete a certain backend role:
+
+    $ n98-magerun.phar admin:role:delete
 
